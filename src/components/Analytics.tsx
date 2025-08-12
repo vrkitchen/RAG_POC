@@ -77,13 +77,7 @@ const Analytics = ({ userRole }: AnalyticsProps) => {
   return (
     <div className="space-y-8">
       <div className="flex items-center justify-between">
-        <div>
-          <h2 className="text-3xl font-bold tracking-tight">Sales Analytics Dashboard</h2>
-          <p className="text-muted-foreground">Powered by SFW Technologies India PVT LTD</p>
-        </div>
-        <div className="flex items-center space-x-2">
-          <img src="/sfw-logo.png" alt="SFW Technologies" className="h-8 w-auto opacity-90" />
-        </div>
+        <h2 className="text-3xl font-bold tracking-tight">Sales Analytics Dashboard</h2>
       </div>
       {/* Key Metrics */}
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
