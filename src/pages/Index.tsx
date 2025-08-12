@@ -88,7 +88,7 @@ const Index = () => {
             <p className="text-xl md:text-2xl mb-8 text-foreground/90 leading-relaxed">
               Ask questions in natural language. Get instant insights from your sales data.
               <br />
-              Transform your CRM data into actionable intelligence with SFW Technologies.
+              Transform your CRM data into actionable intelligence.
             </p>
             <div className="flex flex-wrap justify-center gap-4 text-lg">
               <div className="flex items-center space-x-2 bg-white/10 rounded-full px-6 py-3 backdrop-blur-sm">
