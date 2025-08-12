@@ -98,7 +98,7 @@ const ChatInterface = ({ userRole }: ChatInterfaceProps) => {
         <CardHeader>
           <CardTitle className="flex items-center space-x-3">
             <div className="flex items-center space-x-2">
-              <img src="/sfw-logo.png" alt="SFW Technologies" className="h-6 w-auto" />
+              <img src="/hot-sale.png" alt="Sales Assistant" className="h-6 w-auto" />
               <div className="h-6 w-px bg-border mx-1"></div>
               <span>AI Sales Assistant</span>
             </div>
@@ -154,7 +154,7 @@ const ChatInterface = ({ userRole }: ChatInterfaceProps) => {
                   <div className={`flex items-start space-x-3 ${message.role === 'user' ? 'justify-end' : ''}`}>
                     {message.role === 'assistant' && (
                       <div className="w-8 h-8 bg-primary/5 rounded-lg flex items-center justify-center overflow-hidden">
-                        <img src="/sfw-logo.png" alt="SFW AI" className="h-5 w-auto opacity-90" />
+                        <img src="/hot-sale.png" alt="AI Assistant" className="h-5 w-auto opacity-90" />
                       </div>
                     )}
                     <div className={`max-w-[70%] p-3 rounded-lg ${
