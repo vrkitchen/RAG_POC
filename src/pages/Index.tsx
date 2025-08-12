@@ -31,9 +31,7 @@ const Index = () => {
       <div className="min-h-screen bg-background">
         <header className="border-b bg-card/50 backdrop-blur-sm sticky top-0 z-50">
           <div className="container mx-auto px-4 py-4 flex items-center justify-between">
-            <div className="flex items-center space-x-3">
-              <img src="/sfw-logo.png" alt="SFW Technologies Logo" className="h-10 w-auto" />
-              <div className="h-8 w-px bg-border mx-2"></div>
+            <div className="flex items-center">
               <h1 className="text-2xl font-bold bg-gradient-to-r from-primary to-primary/80 bg-clip-text text-transparent">Sales Analytics</h1>
             </div>
             <div className="flex items-center space-x-4">
@@ -79,11 +77,7 @@ const Index = () => {
         <div className="absolute inset-0 bg-gradient-to-br from-primary/10 to-background/50 backdrop-blur-sm"></div>
         <div className="container mx-auto px-4 py-24 relative z-10">
           <div className="max-w-4xl mx-auto text-center">
-            <div className="flex justify-center mb-8">
-              <div className="bg-white/90 p-6 rounded-2xl shadow-xl border border-border/20">
-                <img src="/sfw-logo.png" alt="SFW Technologies Logo" className="h-16 w-auto mx-auto" />
-              </div>
-            </div>
+
             <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight">
               <span className="text-white">AI-Powered</span>
               <br />
